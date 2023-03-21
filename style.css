@@ -1,10 +1,11 @@
 #titulo{
-    background:linear-gradient(#f00ab6 0%,#c603fc 100%) ;
+    background:linear-gradient(#573de9 0%,#e0f242 100%) ;
 }
 p{
     font-size:25px;
 }
 body{
+    background-color: burlywood;
     text-align: center;
     padding: 50px;
 }
@@ -28,19 +29,24 @@ ul{
     position: fixed;
     top: 0%;
     margin-top: 0%;
-    background-color: #0af06a;
+    background-color: #ed89db;
 }
 h1{
-    color: aqua;
+    color: rgb(47, 67, 249);
     font-family: 'Dancing Script';
 }
 #tortu{
-    color: yellow;
+    background-color: rgb(248, 43, 101);
+    color:#f6ef8c;
     font-family: 'Dancing Script';
 }
 #oso{
-    background: linear-gradient(#0af06a 0%,#0398fc 100%);
+    background: linear-gradient(#0ab6f0 0%,#0398fc 100%);
 }
 .imagenes{
   width: 700px;  
+}
+.my_nav_bar{
+    z-index: 751;
+    position: sticky;
 }
